@@ -1,0 +1,6 @@
+# Logitech G13 gameboard
+# https://support.logi.com/hc/en-us/articles/360023467053-G13-Technical-Specifications
+[Device]
+Name=Logitech G13
+DeviceMatch=usb:046d:c21c
+Driver=logitech_g13
