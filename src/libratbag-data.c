@@ -51,6 +51,7 @@ enum driver {
 	LOGITECH_G300,
 	LOGITECH_G600,
 	STEELSERIES,
+	LOGITECH_G13,
 };
 
 struct data_hidpp20 {
@@ -266,6 +267,7 @@ static const struct driver_map {
 	{ GSKILL, "gskill", NULL },
 	{ LOGITECH_G300, "logitech_g300", NULL},
 	{ LOGITECH_G600, "logitech_g600", NULL},
+	{ LOGITECH_G13, "logitech_g13", NULL},
 	{ STEELSERIES, "steelseries", init_data_steelseries },
 };
 
